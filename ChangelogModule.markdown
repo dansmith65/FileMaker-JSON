@@ -1,4 +1,17 @@
-## 1.0.1 ##
+### 1.0.2 ###
+
+- modify scripts:
+	- ~FM-JSON { value }
+		- update test that differentiates an array from a string
+			- previously, a quoted number was interpreted as an array
+	- ~JSON-FM Object
+		- update # ( name ; value ) function used in encode object section to version date 2014-06-06
+	- ~JSON-FM Array
+		- update #List ( value ) function used in encode value section to version date 2014-06-06
+	- JSON: READ ME
+		- add "UPGRADE PROCESS" section
+
+### 1.0.1 ###
 
 - fix Issue #1 and #2 from GitHub
 - modify scripts:
