@@ -1,3 +1,22 @@
+### 1.0.4 ###
+
+release date: 2015-MAR-30
+
+- modify scripts:
+	- ~FM-JSON { value }
+		- fix bug: time or timestamp with milliseconds would use the right two digits as the seconds and would not display milliseconds
+		- fix bug: (GitHub Issue #6) return delimited list of field names from the current layout were detected as an array
+		- now requires an array to end in a trailing return (which is the format produced by the #List function)
+			- modified the "manually generated array" unit tests to reflect this change
+
+
+### 1.0.3 ###
+
+- modify scripts:
+	- ~FM-JSON { string }
+		- fix bug: encode unicode control characters
+
+
 ### 1.0.2 ###
 
 - modify scripts:
@@ -10,6 +29,7 @@
 		- update #List ( value ) function used in encode value section to version date 2014-06-06
 	- JSON: READ ME
 		- add "UPGRADE PROCESS" section
+
 
 ### 1.0.1 ###
 
