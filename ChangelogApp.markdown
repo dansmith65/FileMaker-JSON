@@ -1,3 +1,23 @@
+### 1.0.3 ###
+
+- add unit tests for JSON-FM and FM-JSON:
+	- GitHub Issue #7: Printer quotes ruin your day: in array
+	- GitHub Issue #7: Printer quotes ruin your day: in object
+
+
+### 1.0.2 ###
+
+- add unit tests for FM-JSON:
+	- unicode control characters w/ backslash escape
+	- unicode 0
+	- unicode control characters w/out backslash escape
+
+- add Speed Test scripts:
+	- Speed Test: Template
+	- Speed Test: Substitute vs Filter
+	- Speed Test: Text vs Char function
+
+
 ### 1.0.1 ###
 
 - unit tests for FM-JSON:
@@ -9,6 +29,7 @@
 - update custom functions to current #Parameters module version 1.1.3:
 	- #
 	- #List
+
 
 # 1.0.0 #
 

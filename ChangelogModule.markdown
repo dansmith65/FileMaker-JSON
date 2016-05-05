@@ -1,3 +1,14 @@
+### 1.0.5 ###
+
+release date: 2016-MAY-05
+
+- modify scripts:
+	- FM-JSON ( letNotation )
+	- ~JSON-FM Value
+	- ~JSON-FM String
+	- ~FM-JSON { value }
+
+
 ### 1.0.4 ###
 
 release date: 2015-MAR-30
