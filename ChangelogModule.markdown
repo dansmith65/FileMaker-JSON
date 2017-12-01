@@ -1,3 +1,13 @@
+### 1.0.6 ###
+
+release date: 2017-DEC-01
+
+When converting FM to JSON and a value is already a JSON object or array, don't convert it to a string.
+
+- modify scripts:
+	- ~JSON-FM String
+
+
 ### 1.0.5 ###
 
 release date: 2016-MAY-05

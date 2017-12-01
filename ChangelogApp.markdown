@@ -1,3 +1,10 @@
+### 1.0.4 ###
+
+- add unit tests for FM-JSON:
+	- value is json list
+	- value is json object
+
+
 ### 1.0.3 ###
 
 - add unit tests for JSON-FM and FM-JSON:
